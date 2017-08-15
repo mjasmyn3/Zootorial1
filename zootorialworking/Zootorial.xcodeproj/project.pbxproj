@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC06C34F1F2BA1C500B0AF9C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC06C34E1F2BA1C500B0AF9C /* AVFoundation.framework */; };
+		DC06C3511F2BAE4900B0AF9C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC06C3501F2BAE4900B0AF9C /* CoreData.framework */; };
+		DC71FDC41F2FA563005BDF0B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC71FDC31F2FA563005BDF0B /* ProfileViewController.swift */; };
+		DC71FDC61F2FDE7F005BDF0B /* ReadALongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC71FDC51F2FDE7F005BDF0B /* ReadALongViewController.swift */; };
+		DC93064B1F28FFC000A75CB9 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC93064A1F28FFC000A75CB9 /* QuizViewController.swift */; };
+		DC9A9D6F1F2685940008ED37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A9D6E1F2685940008ED37 /* AppDelegate.swift */; };
+		DC9A9D711F2685940008ED37 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A9D701F2685940008ED37 /* BookViewController.swift */; };
+		DC9A9D741F2685940008ED37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9A9D721F2685940008ED37 /* Main.storyboard */; };
+		DC9A9D761F2685940008ED37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9A9D751F2685940008ED37 /* Assets.xcassets */; };
+		DC9A9D791F2685940008ED37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9A9D771F2685940008ED37 /* LaunchScreen.storyboard */; };
+		DC9A9D841F2685940008ED37 /* ZootorialTests1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A9D831F2685940008ED37 /* ZootorialTests1.swift */; };
+		DC9A9D8F1F26866A0008ED37 /* ReadingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A9D8E1F26866A0008ED37 /* ReadingTableViewCell.swift */; };
+		DC9A9D931F269A760008ED37 /* Stories.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A9D921F269A760008ED37 /* Stories.swift */; };
+		DC9A9D971F26A4290008ED37 /* ReadingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A9D961F26A4290008ED37 /* ReadingTableViewController.swift */; };
+		DCA302B81F32437E00924D12 /* PandaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA302B71F32437E00924D12 /* PandaViewController.swift */; };
+		DCD05B5A1F30E23400D1DC5F /* Answers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD05B591F30E23400D1DC5F /* Answers.swift */; };
+		DCD05B5C1F30E35100D1DC5F /* DataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD05B5B1F30E35100D1DC5F /* DataTableViewController.swift */; };
+		DCD05B5E1F30E36000D1DC5F /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD05B5D1F30E36000D1DC5F /* DataTableViewCell.swift */; };
+		DCD4EC811F2A5D8D0096D227 /* Zootorial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCD4EC7F1F2A5D8D0096D227 /* Zootorial.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC9A9D801F2685940008ED37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC9A9D631F2685940008ED37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC9A9D6A1F2685940008ED37;
+			remoteInfo = Zootorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC06C34E1F2BA1C500B0AF9C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DC06C3501F2BAE4900B0AF9C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DC71FDC31F2FA563005BDF0B /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DC71FDC51F2FDE7F005BDF0B /* ReadALongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadALongViewController.swift; sourceTree = "<group>"; };
+		DC93064A1F28FFC000A75CB9 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuizViewController.swift; path = ../QuizViewController.swift; sourceTree = "<group>"; };
+		DC9A9D6B1F2685940008ED37 /* Zootorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zootorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9A9D6E1F2685940008ED37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC9A9D701F2685940008ED37 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		DC9A9D731F2685940008ED37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC9A9D751F2685940008ED37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC9A9D781F2685940008ED37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC9A9D7A1F2685940008ED37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9A9D7F1F2685940008ED37 /* ZootorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZootorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9A9D831F2685940008ED37 /* ZootorialTests1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZootorialTests1.swift; sourceTree = "<group>"; };
+		DC9A9D851F2685940008ED37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9A9D8E1F26866A0008ED37 /* ReadingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingTableViewCell.swift; sourceTree = "<group>"; };
+		DC9A9D921F269A760008ED37 /* Stories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stories.swift; sourceTree = "<group>"; };
+		DC9A9D961F26A4290008ED37 /* ReadingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReadingTableViewController.swift; path = ../ReadingTableViewController.swift; sourceTree = "<group>"; };
+		DCA302B71F32437E00924D12 /* PandaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PandaViewController.swift; sourceTree = "<group>"; };
+		DCD05B591F30E23400D1DC5F /* Answers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Answers.swift; sourceTree = "<group>"; };
+		DCD05B5B1F30E35100D1DC5F /* DataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTableViewController.swift; sourceTree = "<group>"; };
+		DCD05B5D1F30E36000D1DC5F /* DataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		DCD4EC801F2A5D8D0096D227 /* Zootorial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zootorial.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC9A9D681F2685940008ED37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC06C3511F2BAE4900B0AF9C /* CoreData.framework in Frameworks */,
+				DC06C34F1F2BA1C500B0AF9C /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9A9D7C1F2685940008ED37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC06C34D1F2BA1C500B0AF9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC06C3501F2BAE4900B0AF9C /* CoreData.framework */,
+				DC06C34E1F2BA1C500B0AF9C /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC9A9D621F2685940008ED37 = {
+			isa = PBXGroup;
+			children = (
+				DC9A9D6D1F2685940008ED37 /* Zootorial */,
+				DC9A9D821F2685940008ED37 /* ZootorialTests */,
+				DC9A9D6C1F2685940008ED37 /* Products */,
+				DC06C34D1F2BA1C500B0AF9C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC9A9D6C1F2685940008ED37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC9A9D6B1F2685940008ED37 /* Zootorial.app */,
+				DC9A9D7F1F2685940008ED37 /* ZootorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC9A9D6D1F2685940008ED37 /* Zootorial */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4EC7F1F2A5D8D0096D227 /* Zootorial.xcdatamodeld */,
+				DC9A9D6E1F2685940008ED37 /* AppDelegate.swift */,
+				DC9A9D701F2685940008ED37 /* BookViewController.swift */,
+				DC9A9D961F26A4290008ED37 /* ReadingTableViewController.swift */,
+				DC9A9D8E1F26866A0008ED37 /* ReadingTableViewCell.swift */,
+				DC93064A1F28FFC000A75CB9 /* QuizViewController.swift */,
+				DC9A9D921F269A760008ED37 /* Stories.swift */,
+				DCD05B591F30E23400D1DC5F /* Answers.swift */,
+				DCD05B5B1F30E35100D1DC5F /* DataTableViewController.swift */,
+				DCD05B5D1F30E36000D1DC5F /* DataTableViewCell.swift */,
+				DC9A9D721F2685940008ED37 /* Main.storyboard */,
+				DCA302B71F32437E00924D12 /* PandaViewController.swift */,
+				DC71FDC51F2FDE7F005BDF0B /* ReadALongViewController.swift */,
+				DC71FDC31F2FA563005BDF0B /* ProfileViewController.swift */,
+				DC9A9D751F2685940008ED37 /* Assets.xcassets */,
+				DC9A9D771F2685940008ED37 /* LaunchScreen.storyboard */,
+				DC9A9D7A1F2685940008ED37 /* Info.plist */,
+			);
+			path = Zootorial;
+			sourceTree = "<group>";
+		};
+		DC9A9D821F2685940008ED37 /* ZootorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC9A9D831F2685940008ED37 /* ZootorialTests1.swift */,
+				DC9A9D851F2685940008ED37 /* Info.plist */,
+			);
+			path = ZootorialTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC9A9D6A1F2685940008ED37 /* Zootorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC9A9D881F2685940008ED37 /* Build configuration list for PBXNativeTarget "Zootorial" */;
+			buildPhases = (
+				DC9A9D671F2685940008ED37 /* Sources */,
+				DC9A9D681F2685940008ED37 /* Frameworks */,
+				DC9A9D691F2685940008ED37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zootorial;
+			productName = Zootorial;
+			productReference = DC9A9D6B1F2685940008ED37 /* Zootorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC9A9D7E1F2685940008ED37 /* ZootorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC9A9D8B1F2685940008ED37 /* Build configuration list for PBXNativeTarget "ZootorialTests" */;
+			buildPhases = (
+				DC9A9D7B1F2685940008ED37 /* Sources */,
+				DC9A9D7C1F2685940008ED37 /* Frameworks */,
+				DC9A9D7D1F2685940008ED37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC9A9D811F2685940008ED37 /* PBXTargetDependency */,
+			);
+			name = ZootorialTests;
+			productName = ZootorialTests;
+			productReference = DC9A9D7F1F2685940008ED37 /* ZootorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC9A9D631F2685940008ED37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "J.A.K.E Corp";
+				TargetAttributes = {
+					DC9A9D6A1F2685940008ED37 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = QA7D357S6E;
+						ProvisioningStyle = Automatic;
+					};
+					DC9A9D7E1F2685940008ED37 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC9A9D6A1F2685940008ED37;
+					};
+				};
+			};
+			buildConfigurationList = DC9A9D661F2685940008ED37 /* Build configuration list for PBXProject "Zootorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC9A9D621F2685940008ED37;
+			productRefGroup = DC9A9D6C1F2685940008ED37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC9A9D6A1F2685940008ED37 /* Zootorial */,
+				DC9A9D7E1F2685940008ED37 /* ZootorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC9A9D691F2685940008ED37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9A9D791F2685940008ED37 /* LaunchScreen.storyboard in Resources */,
+				DC9A9D761F2685940008ED37 /* Assets.xcassets in Resources */,
+				DC9A9D741F2685940008ED37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9A9D7D1F2685940008ED37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC9A9D671F2685940008ED37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9A9D971F26A4290008ED37 /* ReadingTableViewController.swift in Sources */,
+				DC9A9D8F1F26866A0008ED37 /* ReadingTableViewCell.swift in Sources */,
+				DC9A9D711F2685940008ED37 /* BookViewController.swift in Sources */,
+				DCD05B5A1F30E23400D1DC5F /* Answers.swift in Sources */,
+				DC71FDC41F2FA563005BDF0B /* ProfileViewController.swift in Sources */,
+				DCA302B81F32437E00924D12 /* PandaViewController.swift in Sources */,
+				DC93064B1F28FFC000A75CB9 /* QuizViewController.swift in Sources */,
+				DCD05B5C1F30E35100D1DC5F /* DataTableViewController.swift in Sources */,
+				DCD05B5E1F30E36000D1DC5F /* DataTableViewCell.swift in Sources */,
+				DC9A9D931F269A760008ED37 /* Stories.swift in Sources */,
+				DC9A9D6F1F2685940008ED37 /* AppDelegate.swift in Sources */,
+				DC71FDC61F2FDE7F005BDF0B /* ReadALongViewController.swift in Sources */,
+				DCD4EC811F2A5D8D0096D227 /* Zootorial.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9A9D7B1F2685940008ED37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9A9D841F2685940008ED37 /* ZootorialTests1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC9A9D811F2685940008ED37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC9A9D6A1F2685940008ED37 /* Zootorial */;
+			targetProxy = DC9A9D801F2685940008ED37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC9A9D721F2685940008ED37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC9A9D731F2685940008ED37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC9A9D771F2685940008ED37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC9A9D781F2685940008ED37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC9A9D861F2685940008ED37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC9A9D871F2685940008ED37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC9A9D891F2685940008ED37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QA7D357S6E;
+				INFOPLIST_FILE = Zootorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zootorialapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DC9A9D8A1F2685940008ED37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QA7D357S6E;
+				INFOPLIST_FILE = Zootorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Zootorialapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DC9A9D8C1F2685940008ED37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZootorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZootorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zootorial.app/Zootorial";
+			};
+			name = Debug;
+		};
+		DC9A9D8D1F2685940008ED37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZootorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ZootorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zootorial.app/Zootorial";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC9A9D661F2685940008ED37 /* Build configuration list for PBXProject "Zootorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9A9D861F2685940008ED37 /* Debug */,
+				DC9A9D871F2685940008ED37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC9A9D881F2685940008ED37 /* Build configuration list for PBXNativeTarget "Zootorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9A9D891F2685940008ED37 /* Debug */,
+				DC9A9D8A1F2685940008ED37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC9A9D8B1F2685940008ED37 /* Build configuration list for PBXNativeTarget "ZootorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9A9D8C1F2685940008ED37 /* Debug */,
+				DC9A9D8D1F2685940008ED37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DCD4EC7F1F2A5D8D0096D227 /* Zootorial.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCD4EC801F2A5D8D0096D227 /* Zootorial.xcdatamodel */,
+			);
+			currentVersion = DCD4EC801F2A5D8D0096D227 /* Zootorial.xcdatamodel */;
+			path = Zootorial.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DC9A9D631F2685940008ED37 /* Project object */;
+}
